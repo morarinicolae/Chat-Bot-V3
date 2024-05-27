@@ -61,14 +61,15 @@ Chatbot-ul pentru Telegram este proiectat să răspundă la cerințele utilizato
     python test_handlers.py
 
 
-## Scopuri in viitor
+## Scopuri în viitor
 
-1. De adaugat mai multe localuri
+1. De adăugat mai multe localuri.
 
-2. De adaugat logare pentru useri in acest bot(acum la moment se inregistreaza doar id-ul de pe telegram) - asta e pentru a face o rezervare
+2. De adăugat logare pentru utilizatori în acest bot (acum la moment se înregistrează doar id-ul de pe Telegram) - asta e pentru a face o rezervare.
 
-3. De adaugat cateva imagini
+3. De adăugat câteva imagini.
 
-4. De adaugat cateva functionalaitati(locatia, apelarea directa de pe telegram, feedback)
+4. De adăugat câteva funcționalități (locația, apelarea directă de pe Telegram, feedback).
+
    
 
