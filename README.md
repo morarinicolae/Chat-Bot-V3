@@ -27,7 +27,7 @@ Chatbot-ul pentru Telegram este proiectat să răspundă la cerințele utilizato
 
 1. Clonează repository-ul:
    ```bash
-   git clone https://github.com/numele-tau-utilizator/telegram-chatbot-leisure-places.git
+   git clone https://github.com/morarinicolae/Chat-Bot-V3.git
    cd telegram-chatbot-leisure-places
 2. Creează și activează un mediu virtual:
    ```bash
@@ -56,4 +56,19 @@ Chatbot-ul pentru Telegram este proiectat să răspundă la cerințele utilizato
     python bot.py
     Trimite comanda /start pentru a începe interacțiunea cu botul și urmează instrucțiunile pentru a primi sugestii de locuri de petrecut timpul liber.
 
+3. Rulează testul:
+   ```bash
+    python test_handlers.py
+
+
+## Scopuri in viitor
+
+1. De adaugat mai multe localuri
+
+2. De adaugat logare pentru useri in acest bot(acum la moment se inregistreaza doar id-ul de pe telegram) - asta e pentru a face o rezervare
+
+3. De adaugat cateva imagini
+
+4. De adaugat cateva functionalaitati(locatia, apelarea directa de pe telegram, feedback)
+   
 
