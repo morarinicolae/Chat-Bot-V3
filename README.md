@@ -15,9 +15,13 @@ Chatbot-ul pentru Telegram este proiectat să răspundă la cerințele utilizato
 
 ## Tehnologii utilizate
 
+
 - Python
 - [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
 - [python-dotenv](https://github.com/theskumar/python-dotenv)
+- [Aiogram](https://github.com/aiogram/aiogram)
+- [SQLAlchemy](https://github.com/sqlalchemy/sqlalchemy)
+- os (modulele standard din Python)
 
 ## Instalare
 
