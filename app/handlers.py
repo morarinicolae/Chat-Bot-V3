@@ -37,6 +37,17 @@ async def category(callback: CallbackQuery):
     await callback.answer('Ați ales produsul')
     await callback.message.answer(f'Titlu: {item_data.name}\nDescriere: {item_data.description}\nPreț: {item_data.price}')
 
+
+@router.message(F.text == 'Despre noi')
+async def catalog(message: Message):
+    await message.answer('Acest proiect a fost realizat in cadrul proiectului Python Odyssey, organizat de catre Sigmoid.\nAici gasiti link-ul lor https://www.sigmoidai.org/\n Iar pentru a fi la curent cu toate evenimentele da un follow pe pagina de instagram https://www.instagram.com/sigmo.ai/')
+   
+@router.message(F.text == 'Contacte')
+async def catalog(message: Message):
+    await message.answer('Acest proiect este doar un inceput, iar daca dvs aveti un local si ati dori sa fie aici, lasa un mesaj pe mailul: morari.nicolae1998@gmail.com sau numarul de telefon +37379023900')
+    
+
 @router.message(F.text)
 async def understand(message:Message):
     await message.answer('Nu inteleg, incearca te rog sa scrii comanda /start')
+
